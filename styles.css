@@ -30,6 +30,10 @@ body{
     width: auto;
     padding: 0 46px;
 }
+.header .headerLogo a{
+    text-decoration: none;
+    color:white;
+}
 .content{
     display:flex;
     flex-direction: column;
@@ -54,10 +58,9 @@ body{
 .section-one .right-side{
     height: auto;
     width: 700px;
-    padding: 40px;
+    margin: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 .centeredBox{
     font-family: 'Lucida Console',Verdana, Tahoma, sans-serif;
